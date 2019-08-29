@@ -261,6 +261,7 @@ export default function game() {
         document.getElementById('page').style.display = 'none'
         document.getElementById('credit_container').style.height = '100vh'
         document.getElementById('credit').style.display = 'block'
+        document.getElementById('neon-wrapper').style.display = 'inline-flex'
     });
     
     credit.addEventListener('keyup', function (event) {
@@ -268,6 +269,7 @@ export default function game() {
             document.getElementById('page').style.display = 'none'
             document.getElementById('credit_container').style.height = '100vh'
             document.getElementById('credit').style.display = 'block'
+            document.getElementById('neon-wrapper').style.display = 'inline-flex'
         }
     });
 
