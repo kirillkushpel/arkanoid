@@ -1,4 +1,4 @@
-# Arkanoid
+![Alt text](https://github.com/kirillkushpel/arkanoid/blob/master/src/images/Arkanoid.png)
 
 ##  My personal project, based om MDN & lots of Gooooogle
 ##  Desktop only (min-width 1024px)
