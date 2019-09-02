@@ -1,6 +1,6 @@
 # Arkanoid
 
-##  My first attempt to create a game. Based om MDN.docs.
+##  My first attempt to create a game. Based om MDN & lots of Gooooogle
 
 # Installation :
 
