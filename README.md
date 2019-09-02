@@ -1,6 +1,7 @@
 # Arkanoid
 
 ##  My personal project, based om MDN & lots of Gooooogle
+##  Desktop only (min-width 1024px)
 
 # Installation :
 
@@ -17,4 +18,12 @@
   1. Re-write level creation via hash-table
   2. Make a difficulty menu
   3. "New game" loads a random level
+  4. Make the page responsive & add touch support
   4. Who knows...)
+  
+  # Stack :
+  * HTML5
+  * CSS3
+  * VanillaJS
+  * Webpack
+  
