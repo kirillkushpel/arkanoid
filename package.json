@@ -1,0 +1,49 @@
+{
+  "name": "arkanoid",
+  "version": "1.0.0",
+  "description": "a simple breakout clone",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillkushpel/arkanoid.git"
+  },
+  "keywords": [
+    "game",
+    "breakout"
+  ],
+  "author": "Kushpel Kirill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirillkushpel/arkanoid/issues"
+  },
+  "homepage": "https://github.com/kirillkushpel/arkanoid#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
+    "gh-pages": "~2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.1.4"
+  }
+}
