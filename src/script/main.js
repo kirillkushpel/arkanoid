@@ -7,7 +7,7 @@ export default function game() {
     const credit = document.getElementById('credit_menu');
     canvas.style.width = '800';
     canvas.style.height = '600';
-    canvas.style.backgroundImage = 'url(../images/bg3.jpg)';
+    canvas.style.backgroundImage = 'url(./images/bg3.jpg)';
     const ctx = canvas.getContext('2d');
     let x = canvas.width / 2; // initial ball trajectory on the X axis
     let y = canvas.height - 20; // initial ball trajectory on the Y axis
@@ -40,9 +40,9 @@ export default function game() {
 
     //game audio
 
-    const audioMenu = new Audio('../audio/menu.mp3');
+    const audioMenu = new Audio('./audio/menu.mp3');
     audioMenu.loop = true;
-    const audioGame = new Audio('../audio/game.mp3');
+    const audioGame = new Audio('./audio/game.mp3');
     audioGame.loop = true;
 
     //  functions' declaration
